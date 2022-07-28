@@ -1,0 +1,65 @@
+:root {
+    --primaryColor: #289BDE;
+}
+
+
+.title-font-size {
+    font-size: 4.063rem;
+}
+
+.info-font-size {
+    font-size: 1rem;
+}
+
+.img-slider-style {
+    filter: brightness(60%);
+}
+
+.work-area {
+    background-color: #F4FAFD;
+}
+
+.pure-s {
+    color: #FBBF24;
+}
+
+.soft-s {
+    color: #FEF3C7;
+}
+
+.footer-color {
+    background-color: #161616;
+}
+
+.blue-bg {
+    background-color: var(--primaryColor);
+}
+
+@media only screen and (max-width:688px) {
+
+    /* font-size resposive  */
+    .title-font-size {
+        font-size: calc(1vw + 1rem);
+
+    }
+
+    .info-font-size {
+        font-size: calc(.5vw + .6rem);
+    }
+
+    .cr-title {
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /* font-size resposive  */
+    .title-font-size {
+        font-size: calc(1vw + 1.5rem);
+    }
+
+    .info-font-size {
+        font-size: calc(.5vw + .6rem);
+    }
+}
